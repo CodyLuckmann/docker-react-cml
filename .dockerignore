@@ -1,0 +1,13 @@
+Dockerfile-dev
+Dockerfile
+docker-compose-dev.yml
+docker-compose.yml
+.dockerignore
+
+node_modules
+.git
+.gitignore
+
+npm-debug.log
+yarn-error.log
+yarn-debug.log

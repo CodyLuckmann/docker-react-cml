@@ -1,0 +1,11 @@
+FROM node:16-alpine3.14
+
+WORKDIR /app
+
+COPY package.json ./
+
+RUN npm install
+RUN npm install react-scripts@4.0.3 -g
+
+CMD ["npx", "nodemon", "--watch", "src", "--exec", "npm", "start"]
+

@@ -17,7 +17,7 @@ services:
 
   docker-react-test:
     container_name: docker-react-test
-    image: docker-react-cml_docker-react-dev
+    image: cmluckmann/docker-react
     volumes:
       - '/app/node_modules'
       - '.:/app'

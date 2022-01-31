@@ -3,7 +3,7 @@ version: '3.9'
 services:
 
   docker-react:
-    container_name: docker-react
+    container_name: newfolder
     build:
       context: .
       dockerfile: Dockerfile
